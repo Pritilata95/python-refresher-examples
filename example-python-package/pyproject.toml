@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculator"
+version = "1.0"
+description = "A simple calculator package for basic arithmetic operations."
+authors = [
+    { name = "Pritilata Saha", email = "pritilata.saha@example.com" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+#[project.urls]
+#"Homepage" = "https://example.com/calculator"
