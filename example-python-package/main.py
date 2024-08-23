@@ -1,3 +1,10 @@
+# Copyright (c) 2024 Pritilata Saha
+#
+# This software is released under the MIT License.
+# See the LICENSE file for details.
+#
+# SPDX-License-Identifier: MIT
+
 import sys
 
 from calculator import add, subtract, multiply, divide

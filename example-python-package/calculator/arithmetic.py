@@ -1,3 +1,10 @@
+# Copyright (c) 2024 Pritilata Saha
+#
+# This software is released under the MIT License.
+# See the LICENSE file for details.
+#
+# SPDX-License-Identifier: MIT
+
 # calculator/arithmetic.py
 
 def add(a, b):
