@@ -10,13 +10,16 @@
 def add(a, b):
     return a + b
 
+
 def subtract(a, b):
     return a - b
+
 
 def multiply(a, b):
     return a * b
 
+
 def divide(a, b):
     if b == 0:
-        raise ValueError("Cannot divide by zero")
+        raise ZeroDivisionError("Cannot be divided by Zero. Please enter a non-zero value.")
     return a / b

@@ -8,6 +8,7 @@
 # tests/test_arithmetic.py
 
 import unittest
+
 from calculator import add, subtract, multiply, divide
 
 
@@ -24,7 +25,7 @@ class TestArithmetic(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(divide(10, 2), 5)
-        with self.assertRaises(ValueError):
+        with self.assertRaises(ZeroDivisionError):
             divide(10, 0)
 
 

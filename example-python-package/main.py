@@ -36,10 +36,11 @@ if choice.isdigit() and 1 <= int(choice) <= len(operator):
     elif operator == 'multiply':
         print(f"{num1} * {num2} = {multiply(num1, num2)}")
     elif operator == 'divide':
-        print(f"{num1} / {num2} = {divide(num1, num2)}")
-    else:
-        print("Invalid operator. Please restart the program and try again.")
-        sys.exit(1)
+        try:
+            print(f"{num1} / {num2} = {divide(num1, num2)}")
+        except ZeroDivisionError as e:
+            print(e)
+            sys.exit(1)
 else:
-    print("Invalid choice. Please restart the program and try again.")
+    print("Invalid operator choice. Please restart the program and try again.")
     sys.exit(1)
